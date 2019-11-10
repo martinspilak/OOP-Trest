@@ -7,6 +7,8 @@ namespace OOP_Trest
     class Shop
     {
         public List<TV> TVs;
+        public List<Phone> Phones;
+
 
         public Shop()
         {
@@ -17,6 +19,14 @@ namespace OOP_Trest
                 new TV("Sony", "OLED", 43),
                 new TV("Philips", "UltraHD", 50)
             };
+            Phones = new List<Phone>
+            {
+                new Phone("LG", "Android"),
+                new Phone("Saumsung", "Android"),
+                new Phone("Apple", "IOS"),
+                new Phone("Nokia", "Windowsphone")
+            };
         }
+       
     }
 }
